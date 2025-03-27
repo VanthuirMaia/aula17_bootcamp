@@ -59,5 +59,3 @@ try:
         session.commit()
 except SQLAlchemyError as e: # Capturando exeções do SQLAlchemy
     print(f"Erro ao inserir produtos: {e}")
-
-from sqlalchemy import func
